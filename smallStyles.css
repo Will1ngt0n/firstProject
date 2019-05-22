@@ -1,0 +1,44 @@
+/* Styles for the smaller screens */ 
+body{margin: 0;
+    background-image: linear-gradient(45deg, rgb(214, 0, 0), rgb(134, 1, 134));
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;}
+
+table {
+    padding:10px 5px;
+    max-width:619px;
+    min-width: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+}
+
+tr {
+    vertical-align: top;
+}
+h2 {text-align: center;
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.centerAlign {
+    text-align: center;
+}
+
+a {
+    text-decoration:  none;
+    color: white;
+}
+
+#containerss {background-image: linear-gradient(45deg, rgb(80, 0, 80),rgb(133, 0, 0));
+    padding:6px 3px 6px 3px;
+    max-width:620px;
+    min-width: auto;
+    box-shadow: 10px 10px 100px rgb(0, 0, 0);
+}
+
+#container {
+    display: none;
+}
+
+#containers {
+    display:none;
+}
